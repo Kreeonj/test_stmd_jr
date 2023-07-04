@@ -51,14 +51,13 @@
                     require 'objects/Car.php';
                     require 'objects/Attempt.php';
                     // Чтение из файла
-                    require 'reader.php';
+                    require 'code/reader.php';
                     // Переменные
-                    require 'variables.php';
+                    require 'code/variables.php';
                     // Вычисления
-                    require 'calculations.php';
+                    require 'code/calculations.php';
                     // Вывод таблицы
-                    require 'template.php'
-
+                    require 'code/template.php'
                 ?>
             </div>
         </main>
