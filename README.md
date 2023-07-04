@@ -53,6 +53,7 @@
 // Инструкция по развертыванию
 
 Работа выполнялась с помощью OpenServer. Настройки 
+
 ![img_4.png](images_readme/img_4.png)
 
 ![img_5.png](images_readme/img_5.png)
