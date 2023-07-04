@@ -1,0 +1,68 @@
+@import "variables";
+// Базовая разметка элементов формы
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: $gap-medium;
+
+  &-block{
+    display: flex;
+    flex-direction: column;
+    gap:$gap-small;
+
+    label{
+      font-size: $fz-small;
+    }
+  }
+}
+// Поля ввода
+.default-input{
+  padding: 5px;
+  border-radius:5px;
+}
+
+// Кнопки
+.btn{
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &-default{
+    color: $color-white;
+    border: 1px solid $color-white;
+    background-color: $color-black;
+    &:hover{
+      background-color: $color-white-btn-hover;
+    }
+    &:active{
+      color: $color-black;
+      border: 1px solid $color-white;
+      background-color: $color-white;
+    }
+  }
+}
+
+// Модификаторы форм
+.line-form{
+  flex-direction: row;
+}
+// Ошибки
+.error{
+  padding: 10px 10px;
+  color: $color-red-main;
+  background-color: $color-red-background;
+  border-radius: 5px;
+  border: 1px solid $color-red-main;
+  margin-bottom: 20px;
+}
+.success{
+  padding: 10px 10px;
+  color: $color-green-main;
+  background-color: $color-green-background;
+  border-radius: 5px;
+  border: 1px solid $color-green-main;
+  margin-bottom: 20px;
+}
