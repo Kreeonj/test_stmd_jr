@@ -52,5 +52,6 @@
 
 Работа выполнялась с помощью OpenServer настройки 
 ![img_4.png](images_readme/img_4.png)
+
 ![img_5.png](images_readme/img_5.png)
 
